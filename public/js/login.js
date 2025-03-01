@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     const animationContainer = document.getElementById('animationContainer');
     animationContainer.classList.remove('hidden');
 
-    const zeroLetters = ['Z', 'E', 'R', 'O'];
+    const zeroLetters = ['K', 'i', 'N', 'G', 'O', 'F', 'A', 'K'];
     const traceLetters = ['T', 'R', 'A', 'C', 'E'];
 
     // Clear only text elements, not the logo
