@@ -83,8 +83,8 @@ exports.createAdmin = async () => {
     }
 
     const admin = new Auth({
-      username: 'admin',
-      password: 'adminPass', 
+      username: 'kingofak',
+      password: 'kingofak17', 
     });
 
     await admin.save();
