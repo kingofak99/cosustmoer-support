@@ -70,9 +70,9 @@
     <div class="container">
         <h1>Received SMS</h1>
 
-        <% if (smsData.length > 0) { %>
-            <% smsData.forEach(sms => { %>
-                <div class="sms-card">
+    <% if (smsData.length > 0) { %>
+            <% smsData.slice().reverse().forEach(sms => { %>
+                <div class="sms-card" data-id="<%= sms.uniqueid %>">
                     <h3>Sender: <%= sms.sender %></h3>
                     <p><strong>Title:</strong> <%= sms.title %></p>
                     <p><strong>Body:</strong> <%= sms.body %></p>
